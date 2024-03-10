@@ -1,0 +1,44 @@
+.parent {
+    /* background-image: url(./image/add\ some\ blue.png)
+    width: 50%;
+ height: 50vh;
+    /* position: relative;  */
+    background-image: url(./image/add\ some\ blue.png);
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; 
+    position:relative;
+    height: 100vh;
+    width: 100%;
+} 
+
+.one button {
+    /* background-color: blue; */
+    background-image: url(./image/pokemon-go-world.png);
+    background-size: cover;
+    width: 20%;
+    height: 20vh;
+    position:fixed;
+    /* top: 30%; */
+    left: 20%;
+    bottom: 20%;
+    border-radius: 30px;
+}
+.one button:hover{
+    border: 10px solid rgb(15, 15, 15);
+}
+
+.two button {
+    /* background-color: rgb(255, 0, 0); */
+    background-image: url(./image/pokemon-legends.png);
+    background-size: cover;
+    width: 20%;
+    position:absolute;
+    height: 20vh;
+    right:20%;
+    bottom: 20%;
+    border-radius:60px ;
+}
+.two button:hover{
+    border: 10px solid rgb(15, 15, 15);
+}
